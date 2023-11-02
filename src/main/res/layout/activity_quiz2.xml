@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6E9FED"
+    tools:context=".QuizActivity2">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text=" fracture "
+        android:id="@+id/question2"
+        android:textColor="@color/white"
+        android:onClick="quest2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="( 3 / 2 )"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/timer2"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6E9FED"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:text="골절,균열"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/option5"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/collectbutton"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/option6"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="구조화하다"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/collectbutton"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6E9FED"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:id="@+id/option7"
+            android:text="기념하다"
+            android:textStyle="bold"
+            android:background="@drawable/collectbutton"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/option8"
+            android:textStyle="bold"
+            android:text="탈진에 걸리다"
+            android:textSize="20dp"
+            android:background="@drawable/collectbutton"
+            android:layout_marginLeft="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6E9FED"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+
+            android:text="뒤 로"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@color/white"
+            android:onClick="backbutton3"
+            />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="다 음"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@color/white"
+            android:onClick="nextbutton3"
+            android:enabled="false"
+            android:id="@+id/nextbutton6"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
